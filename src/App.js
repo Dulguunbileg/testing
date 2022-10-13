@@ -1,7 +1,7 @@
 import Squere from './squire';
 const App = () => {
   let a = ['blue', 'yellow', 'yellow', 'yellow', 'aqua', 'aqua', 'aqua', 'red']
-  
+
   return (
     <div className='row'>
       {

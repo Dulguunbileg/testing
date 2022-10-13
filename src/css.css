@@ -2,21 +2,28 @@
     width: 100px;
     height: 100px;
     margin: 10px;
+    border-top-left-radius: 100%
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
 .row {
+    background-color: #5C434C;
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.blue {
-    background-color: blue;
+.b {
+    background-color: #F09462;
 }
 
-.yellow {
-    background-color: yellow;
-}
-
-.aqua {
-    background-color: aqua;
+.y {
+    background-color: #F5D6B4;
 }
